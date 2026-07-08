@@ -1,0 +1,32 @@
+{
+  "name": "anti-ai-copy-purifier-skill",
+  "version": "1.0.0",
+  "description": "Analyze text copy for robotic AI cliches and rewrite the content into humanized authentic dialogue styles.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "copywriting",
+    "humanization",
+    "nlp",
+    "authenticity",
+    "editing"
+  ],
+  "inputs": {
+    "text_copy": {
+      "type": "string",
+      "description": "Raw text copy to evaluate."
+    }
+  },
+  "outputs": {
+    "purified_text": {
+      "type": "string",
+      "description": "Rewritten authentic humanized text copy."
+    },
+    "ai_cliche_count": {
+      "type": "integer",
+      "description": "Number of detected AI buzzwords."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
